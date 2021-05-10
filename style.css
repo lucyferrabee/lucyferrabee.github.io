@@ -1,0 +1,128 @@
+* {
+box-size: border-box;
+}
+
+body {
+	background-color: #64b5ae;
+	background-image: url("squiggle.png");
+	background-repeat: repeat-y;
+	font-size: 62.5%;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+.profile-photo {
+	width: 400px;
+	height: 400px;
+	padding: 0px 0px 0px 80px;
+}
+
+.socials img {
+	width: 40px;
+	height: 40px;
+}
+
+
+.socials {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	padding: 50px;
+}
+
+.linkedin {
+	position: fixed;
+	top: 150px;
+	left: 1350px;
+}
+
+.github {
+	position: fixed;
+	top: 200px;
+	left: 1350px;
+}
+
+.email {
+	position: fixed;
+	top: 250px;
+	left: 1350px;
+}
+
+.top-bar a {
+	text-decoration: none;
+	color: white;
+}
+
+.top-grid {
+
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 0px 0px 0px 100px;
+}
+
+.about {
+	width: 700px;
+}
+.about p {
+	font-size: 1.1rem;
+}
+
+.about h2 {
+	font-size: 2rem;
+}
+
+.my-projects {
+	height: 45px;
+	font-family: 'Roboto Mono', monospace;;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+  	position: relative;
+  	top: 30px;
+}
+
+.my-projects:hover {
+	background-color: #64b5ae;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+}
+
+.projects img {
+	width: 300px;
+	height: 300px;
+
+}
+
+.projects {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 800px;
+	width: 1000px;
+	padding: 50px;
+	border: 100px;
+	position: relative;
+	top: 200px;
+}
+
+.projects div {
+	max-width: 300px;
+	font-size: 1rem;
+}
