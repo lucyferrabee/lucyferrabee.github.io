@@ -8,6 +8,7 @@ body {
 	background-repeat: repeat-y;
 	font-size: 62.5%;
 	font-family: 'Roboto Mono', monospace;
+
 }
 
 .top-bar {
@@ -15,7 +16,23 @@ body {
 	justify-content: space-between;
 	padding: 10px;
 	font-size: 1rem;
+	width: 100%;
 }
+
+nav a {
+	font-color: black;
+	font-size: 1.5rem;
+}
+
+nav {
+	padding: 30px 0px 0px 0px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index:99;
+}
+
+
 
 .profile-photo {
 	width: 400px;
@@ -27,13 +44,21 @@ body {
 	width: 40px;
 	height: 40px;
 }
-
+.socials2 img {
+	width: 40px;
+	height: 40px;
+}
 
 .socials {
 	display: flex;
 	flex-direction: column;
 	width: 100px;
 	padding: 50px;
+}
+
+.socials a {
+	width: 40px;
+	height: 40px;
 }
 
 .linkedin {
@@ -57,6 +82,7 @@ body {
 .top-bar a {
 	text-decoration: none;
 	color: white;
+
 }
 
 .top-grid {
@@ -64,6 +90,9 @@ body {
 	display: inline-flex;
 	flex-wrap: wrap;
 	padding: 0px 0px 0px 100px;
+	position: relative;
+	top: 50px;
+	width: 100%;
 }
 
 .about {
@@ -79,7 +108,7 @@ body {
 
 .my-projects {
 	height: 45px;
-	font-family: 'Roboto Mono', monospace;;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
@@ -94,17 +123,25 @@ body {
 	outline: none;
   	position: relative;
   	top: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.my-projects a {
+	text-decoration:none;
+
 }
 
 .my-projects:hover {
 	background-color: #64b5ae;
-	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	box-shadow: 0px 15px 20px rgba(100, 181, 174, 0.4);
 	color: #fff;
 	transform: translateY(-7px);
+	text-decoration: none;
 }
 
 .projects img {
-	width: 300px;
+	width: 350px;
 	height: 300px;
 
 }
@@ -113,16 +150,57 @@ body {
 	display: inline-flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-around;
-	height: 800px;
-	width: 1000px;
+	justify-content: start;
+	height: 1400px;
+	width: 1400px;
 	padding: 50px;
-	border: 100px;
+	border: 70px;
 	position: relative;
-	top: 200px;
+	top: 100px;
 }
 
 .projects div {
-	max-width: 300px;
+	max-width: 350px;
 	font-size: 1rem;
+	padding: 10px;
+}
+
+
+
+.contact {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+}
+
+.contact h2 {
+	font-size: 1.5rem;
+}
+
+.linkedin-photo {
+	height: 250px;
+	width: 300px;
+}
+
+.contact li {
+	list-style-type: circle;
+}
+
+.contact {
+	display: flex;
+	justify-content: start;
+	padding: 10px;
+	font-size: 1rem;
+	width: 100%;
+}
+
+.socials2 {
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	padding: 50px;
+	position: relative;
+	top: 30px;
 }
