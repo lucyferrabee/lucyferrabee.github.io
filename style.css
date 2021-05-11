@@ -9,6 +9,7 @@ body {
 	font-size: 62.5%;
 	font-family: 'Roboto Mono', monospace;
 
+
 }
 
 .top-bar {
@@ -52,8 +53,9 @@ nav {
 .socials {
 	display: flex;
 	flex-direction: column;
-	width: 100px;
+	width: 100%;
 	padding: 50px;
+
 }
 
 .socials a {
@@ -65,18 +67,23 @@ nav {
 	position: fixed;
 	top: 150px;
 	left: 1350px;
+	width: 100%;
 }
 
 .github {
 	position: fixed;
 	top: 200px;
 	left: 1350px;
+	width: 100%;
+	
 }
 
 .email {
 	position: fixed;
 	top: 250px;
 	left: 1350px;
+	width: 100%;
+	
 }
 
 .top-bar a {
@@ -122,9 +129,11 @@ nav {
 	cursor: pointer;
 	outline: none;
   	position: relative;
-  	top: 30px;
+	justify-content: center;
+  	top: 5px;
 	text-decoration: none;
 	color: black;
+	width: 30%;
 }
 
 .my-projects a {
@@ -203,4 +212,13 @@ nav {
 	padding: 50px;
 	position: relative;
 	top: 30px;
+}
+
+.letstalk p {
+
+	font-size: 4rem;
+	font-weight: bold;
+	position: relative;
+	top: 0%;
+	color: white;
 }
