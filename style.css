@@ -238,6 +238,13 @@ footer {
 		padding: 0px 0px 0px 80px;
 	}
 	
+	.linkedin-photo {
+		height: 125px;
+		width: 150px;
+	}
+	.letstalk {
+		font-size: 1rem;
+	}
 	
 }
 @media only screen and (max-width: 660px) {
@@ -250,8 +257,9 @@ footer {
 		display: none;
 	}
 	
-	.about {
+	.about p {
 		width: 100%;
+		font-size: 0.85rem;
 	}
 	
 	.profile-photo {
@@ -263,5 +271,9 @@ footer {
 	.linkedin-photo {
 		height: 125px;
 		width: 150px;
+	}
+	
+	.contact {
+		width: 80%;
 	}
 }
