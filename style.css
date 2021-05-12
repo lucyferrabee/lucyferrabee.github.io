@@ -14,10 +14,10 @@ body {
 .top-bar {
 	display: flex;
 	justify-content: space-between;
-	font-size: 1rem;
 	width: 100%;
 	position: fixed;
 	background-color: #64b5ae;
+	font-size: 1rem;
 }
 .top-bar-container {
 	background-color: #64b5ae;
