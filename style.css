@@ -1,5 +1,5 @@
 * {
-box-size: border-box;
+	box-size: border-box;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 	background-repeat: repeat-y;
 	font-size: 62.5%;
 	font-family: 'Roboto Mono', monospace;
-	color: black;
+	color: #000000;
 }
 
 .top-bar {
@@ -18,10 +18,10 @@ body {
 	position: fixed;
 	background-color: #64b5ae;
 	font-size: 1rem;
+	z-index: 99;
 }
 .top-bar-container {
 	background-color: #64b5ae;
-	z-index: 99;
 }
 
 h1 {
@@ -33,22 +33,22 @@ nav a {
 }
 
 nav a:hover {
-	color: black;
+	color: #000000;
 }
 
 nav {
-	padding: 30px 30px 0px 0px;
+	padding: 30px 30px 0 0;
 	position: fixed;
 	top: 0;
 	right: 0;
-	z-index:99;
+	z-index: 99;
 	background-color: #64b5ae;
 }
 
 .profile-photo {
 	width: 500px;
 	height: 500px;
-	padding: 0px 0px 0px 80px;
+	padding: 0 0 0 80px;
 }
 
 .socials img {
@@ -66,7 +66,7 @@ nav {
 	flex-direction: column;
 	padding: 50px;
 	position: fixed;
-	z-index:98;
+	z-index: 98;
 }
 
 .socials a {
@@ -97,7 +97,7 @@ nav {
 
 .top-bar a {
 	text-decoration: none;
-	color: white;
+	color: #FFFFFF;
 }
 
 .top-grid {
@@ -142,18 +142,19 @@ nav {
 	justify-content: center;
   	top: 5px;
 	text-decoration: none;
-	color: black;
 	width: 30%;
+	text-align: center;
+	padding-top: 20px;
 
 }
 
 .my-projects a {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .my-projects:hover {
 	background-color: #64b5ae;
-	box-shadow: 0px 15px 20px rgba(100, 181, 174, 0.4);
+	box-shadow: 0px 15px 20px #64B5AE;
 	color: #fff;
 	transform: translateY(-7px);
 	text-decoration: none;
@@ -165,7 +166,7 @@ nav {
 }
 
 .projects {
-	display: inline-flex;
+	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: start;
@@ -205,25 +206,21 @@ nav {
 }
 
 .letstalk p {
-
 	font-size: 4rem;
 	font-weight: bold;
-
-	color: black;
+	color: #000000;
 }
 
 footer {
 	padding-left: 60px;
 }
 
-
-
 @media only screen and (max-width: 1274px) {
-
+	
 	.profile-photo {
 		width: 400px;
 		height: 400px;
-		padding: 0px 0px 0px 80px;
+		padding: 0 0 0 80px;
 	}
 }
 
@@ -245,7 +242,7 @@ footer {
 	.profile-photo {
 		width: 300px;
 		height: 300px;
-		padding: 0px 0px 0px 80px;
+		padding: 0 0 0 80px;
 	}
 	
 	.linkedin-photo {
@@ -256,10 +253,7 @@ footer {
 	.letstalk p {
 		display: none;
 	}
-	
-	
 }
-
 
 @media only screen and (max-width: 660px) {
 	
@@ -279,14 +273,13 @@ footer {
 	.profile-photo {
 		width: 200px;
 		height: 200px;
-		padding: 0px 0px 0px 80px;
+		padding: 0 0 0 80px;
 	}
 	
 	.linkedin-photo {
 		height: 125px;
 		width: 150px;
 		padding-right: 50px;
-
 	}
 	
 	.contact {
@@ -300,5 +293,4 @@ footer {
 	.my-projects {
 		margin-top: 230px
 	}
-
 }
