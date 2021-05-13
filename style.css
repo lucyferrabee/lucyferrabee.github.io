@@ -252,14 +252,13 @@ footer {
 		height: 125px;
 		width: 150px;
 	}
+  
 	.letstalk p {
 		display: none;
 	}
 	
 	
 }
-
-
 
 
 @media only screen and (max-width: 660px) {
@@ -287,6 +286,7 @@ footer {
 		height: 125px;
 		width: 150px;
 		padding-right: 50px;
+
 	}
 	
 	.contact {
@@ -302,6 +302,5 @@ footer {
 
 
 	}
-	
 
 }
