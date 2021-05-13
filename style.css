@@ -14,10 +14,10 @@ body {
 .top-bar {
 	display: flex;
 	justify-content: space-between;
-	font-size: 1rem;
 	width: 100%;
 	position: fixed;
 	background-color: #64b5ae;
+	font-size: 1rem;
 }
 .top-bar-container {
 	background-color: #64b5ae;
@@ -46,8 +46,8 @@ nav {
 }
 
 .profile-photo {
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	padding: 0px 0px 0px 80px;
 }
 
@@ -114,8 +114,9 @@ nav {
 .about {
 	width: 50%;
 }
-.about p {
-	font-size: 1.1rem;
+
+.about ul {
+	font-size: 1.5rem;
 }
 
 .about h2 {
@@ -217,6 +218,15 @@ footer {
 
 
 
+@media only screen and (max-width: 1274px) {
+
+	.profile-photo {
+		width: 400px;
+		height: 400px;
+		padding: 0px 0px 0px 80px;
+	}
+}
+
 @media only screen and (max-width: 1074px) {
 	
 	.col {
@@ -242,11 +252,15 @@ footer {
 		height: 125px;
 		width: 150px;
 	}
-	.letstalk {
-		font-size: 1rem;
+  
+	.letstalk p {
+		display: none;
 	}
 	
+	
 }
+
+
 @media only screen and (max-width: 660px) {
 	
 	.col {
@@ -259,7 +273,7 @@ footer {
 	
 	.about p {
 		width: 100%;
-		font-size: 0.85rem;
+		font-size: 0.65rem;
 	}
 	
 	.profile-photo {
@@ -271,9 +285,20 @@ footer {
 	.linkedin-photo {
 		height: 125px;
 		width: 150px;
+		padding-right: 50px;
+
 	}
 	
 	.contact {
 		width: 80%;
 	}
+	
+	.letstalk p {
+		display: none;
+	}
+	
+	.my-projects {
+		margin-top: 230px
+	}
+
 }
