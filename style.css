@@ -270,6 +270,10 @@ footer {
 	.letstalk p {
 		display: none;
 	}
+
+	.projects {
+		justify-content: center;
+	}
 }
 
 @media only screen and (max-width: 660px) {
