@@ -214,6 +214,11 @@ footer {
 	padding-left: 60px;
 }
 
+.btn {
+	color: white;
+	background: black;
+}
+
 @media only screen and (max-width: 1274px) {
 	
 	.profile-photo {
